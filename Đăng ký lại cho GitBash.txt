@@ -1,0 +1,12 @@
+Vĩnh:
+	git config --global user.name "vinh221576"
+	git config --global user.email "vinh221576@student.nctu.edu.vn"
+Tuấn:
+	git config --global user.name "TruongAnhTuan220616"
+	git config --global user.email "tuan220616@student.nctu.edu.vn"
+Ngạn:
+	git config --global user.name "Ngan220659-ship-it"
+	git config --global user.email "ngan220659@student.nctu.edu.vn"
+
+
+	

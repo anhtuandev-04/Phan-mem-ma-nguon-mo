@@ -1,0 +1,28 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+
+const AddUser = ({ fetchUsers }) => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios.post('http://localhost:3000/users', { name, email })
+      .then(() => {
+        fetchUsers(); // Gọi lại để refresh danh sách
+        setName(''); // Reset form
+        setEmail('');
+      })
+      .catch(err => console.error('Error adding user:', err)); // Thêm catch để debug
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input value={name} onChange={e => setName(e.target.value)} placeholder="Name" />
+      <input value={email} onChange={e => setEmail(e.target.value)} placeholder="Email" />
+      <button type="submit">Add</button>
+    </form>
+  );
+};
+
+export default AddUser;

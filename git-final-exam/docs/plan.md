@@ -1,0 +1,18 @@
+Kế hoạch học tập 1 tuần:
+- Thứ 2: Python cơ bản
+- Thứ 3: Phần mềm mã nguồn mở
+- Thứ 4: Xả xì chéc
+- Thứ 5: Lập trình di động
+- Thứ 6: Pháp luật công nghệ thông tin
+- Thứ 7: Ôn tập và làm bài tập
+Ngày bắt đầu: 13/10/2025
+Ngày kết thúc: 19/10/2025
+
+<<<<<<< Updated upstream
+- Thêm dòng 1: ôn Git cơ bản
+- Thêm dòng 2: luyện merge
+- Thêm dòng 3: thực hành stash
+=======
+- Thêm dòng 4: review
+- Thêm dòng 5: nộp bài
+>>>>>>> Stashed changes
